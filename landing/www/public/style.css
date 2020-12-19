@@ -117,6 +117,10 @@ html, body {
 	margin-bottom: 96px;
 }
 
+.Section__text2 {
+	padding-bottom: 16px;
+}
+
 .Section__title {
 	font-family: 'Roboto', sans-serif;
 	font-size: 34px;
@@ -128,6 +132,27 @@ html, body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+}
+
+.Section__content {
+	padding-top: 56px;
+}
+
+.Section__content_end {
+	padding-top: 36px;
+}
+
+.Section__title2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	margin-bottom: 24px;
+	
+}
+
+.Map {
+    float: right;
+    
 }
 
 .Section__lists {}
