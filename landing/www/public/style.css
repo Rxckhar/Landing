@@ -15,7 +15,7 @@ html, body {
 .Landing__header {
 	background-color: #012461;
 	margin-bottom: 94px;
-	height: 500px;
+	height: 600px;
 	background-image: url('./images/background_image.png');
 	background-size: cover;
 }
@@ -65,13 +65,14 @@ html, body {
 .Content__text {
 	font-family: 'Roboto', sans-serif;
 	color: white;
-	font-size: 48px;
+	margin-top: 50px;
+	font-size: 64px;
 	font-weight: 900;
 }
 
 .Content__button {
 
-	margin-top: 150px;
+	margin-top: 80px;
 }
 
 .Button {
@@ -92,12 +93,14 @@ html, body {
 	padding-left: 45px;
 	padding-right: 83px;
 	padding-bottom: 30px;
-	border-radius: 5px;
+	border-radius: 10px;
 	background-color: white;
 	transition: opacity ease .25s;
 }
 
 .Content__image {
+	margin-top: 50px;
+	float: right;
 	vertical-align: top;
 	display: inline-block;
 }
@@ -128,6 +131,74 @@ html, body {
 }
 
 .Section__lists {}
+
+.Section__table {}
+
+.Table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.Tr {
+	width: 100%;
+
+}
+
+.Th {
+	padding: 16px 24px;
+	font-size: 24px;
+	text-align: left;
+	border: 4px solid #f1f1f1;
+	width: 50%;
+}
+
+.Td {
+	font-weight: 400;
+	text-align: left;
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+}
+
+.Section__form {}
+
+.Form__item {
+	margin-right: 24px;
+	display: inline-block;
+}
+
+.Form__item_end {
+	margin-right: 0;
+}
+
+.Form__label {
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 8px;
+	display: block;
+}
+
+.Form__input {
+	width: 330px;
+	outline: none;
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+}
+
+.Form__select {
+	width: 387px;
+	outline: none;
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+}
+
+.Form__button {
+	background-color: #002460;
+	color: white;
+	outline: none;
+	padding: 16px 24px;
+	border: 4px solid #002460;
+	font-weight: 900;
+}
 
 .List__block {
 	display: inline-block;
